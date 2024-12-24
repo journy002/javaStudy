@@ -12,7 +12,5 @@ public class ExchangeEx {
         } else {
             System.out.println("잘못된 금액입니다.");
         }
-
-
     }
 }
