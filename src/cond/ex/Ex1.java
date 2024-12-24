@@ -2,7 +2,7 @@ package cond.ex;
 
 public class Ex1 {
     public static void main(String[] args) {
-        int price = 10000; //상품 가격
+        int price = 12000; //상품 가격
         int age = 10;
         int discount = 0;
 
