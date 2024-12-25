@@ -13,7 +13,7 @@ public class ScannerEx7 {
         System.out.print("두 번째 숫자를 입력해주세요: ");
         int num2 = scanner.nextInt();
 
-        int temp = 0;
+        int temp;
 
         if (num1 > num2) {
             temp = num1;
