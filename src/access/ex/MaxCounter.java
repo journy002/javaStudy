@@ -9,7 +9,7 @@ public class MaxCounter {
     }
 
     public void increment() {
-        if (maxCount > count) {
+        if (maxCount >= count) {
             count++;
         } else {
             System.out.println("증가값 초과.");
