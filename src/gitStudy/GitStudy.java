@@ -22,5 +22,21 @@ public class GitStudy {
 
         // 6. 저장 내역을 확인하는 명령어 - git log
 
+        // 7. 추가로 수정된 코드 github에 반영하기 - git push
+        // 7. git push origin 브랜치명
+
+        // 첫 업로드 시 3개의 명령어
+        // 1. git remote add origin <github>주소
+        // 2. git branch -M main
+        // 3. git push -u origin main
+
+        // 코드 복사해오기 - git clone
+        // 1. Github 레포지토리에서 github 주소를 복사합니다.
+        // 2. 코드 작성할 폴더 생성 및 IDE에서 폴더를 열어줍니다.
+        // 3. 터미널창에 git clone <github 주소> . => (.) 점 꼭 찍어주기 안그럼 경로가 달라짐
+
+        // 다른 사람이 변경한 코드 내 코드에도 가져오기 - git pull
+        // git pull origin 브랜치명
+
     }
 }
