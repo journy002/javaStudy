@@ -8,11 +8,11 @@ public class Test01 {
         Scanner sc = new Scanner(System.in);
 
         System.out.println("Collection");
-        String collectionName = sc.nextLine();
+        String option = sc.nextLine();
         System.out.println("title");
         String title = sc.nextLine();
 
-        switch (collectionName) {
+        switch (option) {
             case "List":
                 ArrayList<String> strList = new ArrayList<>();
 
@@ -68,7 +68,7 @@ public class Test01 {
                     strMap.put(num++, text);
                 }
 
-                System.out.println("[ Set으로 저장된 " + title + " ]");
+                System.out.println("[ Map으로 저장된 " + title + " ]");
 
 //                for (String value : strMap.values()) {
 //                    System.out.println(value);
