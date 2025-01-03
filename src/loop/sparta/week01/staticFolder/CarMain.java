@@ -23,7 +23,7 @@ public class CarMain {
         System.out.println("권장사항 아님: " + car.company);
 
         String companyName2 = car.setCompany("Lamborghini");
-        System.out.println("요것도 권장사항 아님: " + companyName2);
+        System.out.println("이것도 권장사항 아님: " + companyName2);
 
 
 
