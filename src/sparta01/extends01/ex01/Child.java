@@ -1,4 +1,4 @@
-package sparta01.class01.ex01;
+package sparta01.extends01.ex01;
 
 public class Child extends Parent{
     int a = 20;

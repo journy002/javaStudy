@@ -1,4 +1,4 @@
-package sparta01.class01.ex03;
+package sparta01.extends01.ex03;
 
 public class ElectricCar extends Car{
 
